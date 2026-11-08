@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Dream Life Cafe - Coffee Collection</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="coffee" data-prev="index.html" data-next="dishes.html">
+
+    <div class="book-container">
+        <!-- Coffee Showcase Page -->
+        <div class="page page-menu-layout">
+            
+            <!-- Navigation Buttons Positioned Above Content -->
+            <div class="nav-buttons-group-top">
+                <a class="btn-back" href="index.html" data-go="index.html" data-dir="back">⬅ Back to Home</a>
+                <a class="btn-next" href="dishes.html" data-go="dishes.html" data-dir="fwd">Dishes Menu ➔</a>
+            </div>
+
+            <div class="menu-content-wrapper">
+                <h2>Our Special Coffee</h2>
+                <div class="subtitle">Handcrafted brews made with passion and precision ☕</div>
+                
+                <div class="menu-category-title">☕ ARTISAN COFFEE SELECTIONS</div>
+                <div class="menu-items-grid">
+                    <div class="menu-item-row"><span>Signature Espresso</span> <span class="price">₹120</span></div>
+                    <div class="menu-item-row"><span>Classic Americano</span> <span class="price">₹140</span></div>
+                    <div class="menu-item-row"><span>Velvety Cappuccino</span> <span class="price">₹160</span></div>
+                    <div class="menu-item-row"><span>Caramel Latte</span> <span class="price">₹175</span></div>
+                    <div class="menu-item-row"><span>Dark Mocha Roast</span> <span class="price">₹180</span></div>
+                    <div class="menu-item-row"><span>Hazelnut Delight</span> <span class="price">₹190</span></div>
+                </div>
+
+                <!-- Embedded 9:16 Vertical Video Directly in Between Sections -->
+                <div class="middle-video-wrapper">
+                    <div class="video-916-container">
+                        <video autoplay muted loop playsinline preload="metadata">
+                            <source src="https://pqxfjszlxpnyjrygiydb.supabase.co/storage/v1/object/public/cafe_assets/vedio_2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="menu-category-title">❄️ ICED & COLD BREWS</div>
+                <div class="menu-items-grid">
+                    <div class="menu-item-row"><span>Iced Vanilla Latte</span> <span class="price">₹185</span></div>
+                    <div class="menu-item-row"><span>Cold Brew Classic</span> <span class="price">₹179</span></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

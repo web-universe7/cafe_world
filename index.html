@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Dream Life Cafe</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home" data-prev="" data-next="coffee.html">
+
+    <!-- Realistic butterflies are drawn on a canvas by app.js (home page only) -->
+
+    <div class="book-container">
+        <!-- PAGE 1: Landing Page -->
+        <div class="page page-1">
+            <div class="cafe-container">
+                <!-- Glowing Bold Animated Title -->
+                <h1 class="animated-title">Dream Life Cafe</h1>
+                
+                <!-- Circular Wrapper with Supabase Video -->
+                <div class="cup-wrapper">
+                    <video autoplay muted loop playsinline preload="metadata" class="animated-cup">
+                        <source src="https://pqxfjszlxpnyjrygiydb.supabase.co/storage/v1/object/public/cafe_assets/coffee_cup.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <!-- Tagline -->
+                <p class="tagline">Sip the magic of your dream life.</p>
+
+                <!-- Open Menu Button -->
+                <a class="btn-open-menu" id="openMenuBtn" href="coffee.html" data-go="coffee.html" data-dir="fwd">Open Menu ➔</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

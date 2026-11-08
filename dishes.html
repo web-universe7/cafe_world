@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Dream Life Cafe - Food & Desserts</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="dishes" data-prev="coffee.html" data-next="order.html">
+
+    <div class="book-container">
+        <!-- Dishes & Desserts Showcase Page -->
+        <div class="page page-menu-layout">
+            
+            <!-- Navigation Buttons Positioned Above Content -->
+            <div class="nav-buttons-group-top">
+                <a class="btn-back" href="coffee.html" data-go="coffee.html" data-dir="back">⬅ Coffee Menu</a>
+                <a class="btn-next" href="order.html" data-go="order.html" data-dir="fwd">Order Now 🛒</a>
+            </div>
+            
+            <!-- Food & Desserts Menu with Middle Video Integration -->
+            <div class="menu-content-wrapper">
+                <h2>Food & Desserts</h2>
+                <div class="subtitle">Good Food, Good Mood, Good Life 🍽️</div>
+                
+                <div class="menu-category-title">🍔 FOOD MENU</div>
+                <div class="menu-items-grid">
+                    <div class="menu-item-row"><span>Club Sandwich</span> <span class="price">₹220</span></div>
+                    <div class="menu-item-row"><span>Chicken Sandwich</span> <span class="price">₹220</span></div>
+                    <div class="menu-item-row"><span>Cheese Sandwich</span> <span class="price">₹180</span></div>
+                    <div class="menu-item-row"><span>Pasta (White/Red)</span> <span class="price">₹240</span></div>
+                    <div class="menu-item-row"><span>Cheesy Nachos</span> <span class="price">₹200</span></div>
+                    <div class="menu-item-row"><span>French Fries</span> <span class="price">₹120</span></div>
+                    <div class="menu-item-row"><span>Garlic Bread</span> <span class="price">₹120</span></div>
+                </div>
+
+                <!-- Embedded 9:16 Vertical Video Directly in Between Food and Desserts -->
+                <div class="middle-video-wrapper">
+                    <div class="video-916-container">
+                        <video autoplay muted loop playsinline preload="metadata">
+                            <source src="https://pqxfjszlxpnyjrygiydb.supabase.co/storage/v1/object/public/cafe_assets/vedio_1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="menu-category-title">🍰 DESSERTS</div>
+                <div class="menu-items-grid">
+                    <div class="menu-item-row"><span>Chocolate Cake</span> <span class="price">₹180</span></div>
+                    <div class="menu-item-row"><span>Cheesecake</span> <span class="price">₹180</span></div>
+                    <div class="menu-item-row"><span>Brownie w/ Ice Cream</span> <span class="price">₹180</span></div>
+                    <div class="menu-item-row"><span>Tiramisu</span> <span class="price">₹200</span></div>
+                    <div class="menu-item-row"><span>Chocolate Muffin</span> <span class="price">₹140</span></div>
+                    <div class="menu-item-row"><span>Ice Cream (Scoop)</span> <span class="price">₹100</span></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

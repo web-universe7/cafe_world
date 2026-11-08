@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Dream Life Cafe - Order Now</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="order" data-prev="dishes.html" data-next="">
+
+    <div class="book-container">
+        <div class="page page-menu-layout">
+
+            <div class="nav-buttons-group-top">
+                <a class="btn-back" href="dishes.html" data-go="dishes.html" data-dir="back">⬅ Dishes Menu</a>
+                <a class="btn-next" href="index.html" data-go="index.html" data-dir="fwd">Home 🏠</a>
+            </div>
+
+            <div class="menu-content-wrapper">
+                <h2>Order Now</h2>
+                <div class="subtitle">Pick your favourites, set quantities and order on WhatsApp 🛒</div>
+
+                <div id="menuList"></div>
+
+                <div class="menu-category-title">🛒 YOUR CART</div>
+                <div class="cart-box">
+                    <div id="cartList"></div>
+                    <div class="cart-total"><span>Total</span><span id="cartTotal">₹0</span></div>
+                </div>
+
+                <div class="order-form">
+                    <label for="custName">Your Name</label>
+                    <input type="text" id="custName" placeholder="Enter your name" maxlength="40" autocomplete="name">
+
+                    <label class="confirm-row" for="confirmChk">
+                        <input type="checkbox" id="confirmChk">
+                        <span>I have checked my items, quantities and name. Please confirm my order.</span>
+                    </label>
+
+                    <div class="order-hint" id="orderHint"></div>
+                    <button type="button" id="orderBtn" class="btn-order-wa" disabled>Order Now on WhatsApp</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="order.js"></script>
+</body>
+</html>
