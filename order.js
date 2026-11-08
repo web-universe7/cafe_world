@@ -1,7 +1,7 @@
 // Order page: cart + WhatsApp order
 (function () {
     const MENU = [{"title": "☕ ARTISAN COFFEE SELECTIONS", "items": [{"name": "Signature Espresso", "price": 120}, {"name": "Classic Americano", "price": 140}, {"name": "Velvety Cappuccino", "price": 160}, {"name": "Caramel Latte", "price": 175}, {"name": "Dark Mocha Roast", "price": 180}, {"name": "Hazelnut Delight", "price": 190}]}, {"title": "❄️ ICED & COLD BREWS", "items": [{"name": "Iced Vanilla Latte", "price": 185}, {"name": "Cold Brew Classic", "price": 179}]}, {"title": "🍔 FOOD MENU", "items": [{"name": "Club Sandwich", "price": 220}, {"name": "Chicken Sandwich", "price": 220}, {"name": "Cheese Sandwich", "price": 180}, {"name": "Pasta (White/Red)", "price": 240}, {"name": "Cheesy Nachos", "price": 200}, {"name": "French Fries", "price": 120}, {"name": "Garlic Bread", "price": 120}]}, {"title": "🍰 DESSERTS", "items": [{"name": "Chocolate Cake", "price": 180}, {"name": "Cheesecake", "price": 180}, {"name": "Brownie w/ Ice Cream", "price": 180}, {"name": "Tiramisu", "price": 200}, {"name": "Chocolate Muffin", "price": 140}, {"name": "Ice Cream (Scoop)", "price": 100}]}];
-    const WHATSAPP = '917745036055'; // +91 7745036055
+    const WHATSAPP = '919579626809'; // +91 9579626809
     const $ = id => document.getElementById(id);
     const money = n => '\u20b9' + n;
     const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
